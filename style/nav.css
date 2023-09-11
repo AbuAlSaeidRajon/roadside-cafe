@@ -1,4 +1,4 @@
-nav li{
+nav > li{
     list-style: none;
     display: inline;
     margin-right: 70px;
