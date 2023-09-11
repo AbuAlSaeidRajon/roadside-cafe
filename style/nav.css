@@ -1,6 +1,9 @@
-nav > li{
+nav > ul {
+    display: flex
+}
+nav li {
     list-style: none;
-    display: inline;
+    
     margin-right: 70px;
     padding: 0 5px;
 }
@@ -10,4 +13,8 @@ nav li a{
 }
 nav li:hover{
     background-color: lightgray;
+}
+/* Nested menu */
+nav li .dropdown{
+    display: none;
 }
